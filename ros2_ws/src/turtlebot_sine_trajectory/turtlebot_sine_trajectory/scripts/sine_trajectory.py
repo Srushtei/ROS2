@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+
 
 import rclpy
 from rclpy.node import Node
@@ -11,14 +11,14 @@ class SineTrajectoryNode(Node):
         self.publisher_ = self.create_publisher(Twist, '/cmd_vel', 10)
         self.timer = self.create_timer(0.1, self.publish_velocity)
         self.time_elapsed = 0.0
-        self.amplitude = 0.5  # Amplitude of the sine wave
-        self.frequency = 0.1  # Frequency of the sine wave
+        self.amplitude = 0.5  
+        self.frequency = 0.1  
 
     def publish_velocity(self):
         velocity_msg = Twist()
 
-        # Calculate linear and angular velocity
-        linear_velocity = 0.2  # Constant forward velocity
+        
+        linear_velocity = 0.2  
         angular_velocity = self.amplitude * math.sin(2 * math.pi * self.frequency * self.time_elapsed)
 
         velocity_msg.linear.x = linear_velocity
