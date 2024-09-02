@@ -1,0 +1,33 @@
+[INFO] [launch]: All log files can be found below /home/srushtei/.ros/log/2024-09-01-16-37-15-259825-Srushtei-17726
+[INFO] [launch]: Default logging verbosity is set to INFO
+[ERROR] [moveit_control.py-2]: exception occurred while executing process:
+Traceback (most recent call last):
+  File "/opt/ros/humble/lib/python3.10/site-packages/launch/actions/execute_local.py", line 546, in __execute_process
+    transport, self._subprocess_protocol = await async_execute_process(
+  File "/opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/process_utils/async_execute_process_asyncio/impl.py", line 139, in async_execute_process
+    transport, protocol = await _async_execute_process_nopty(
+  File "/opt/ros/humble/lib/python3.10/site-packages/osrf_pycommon/process_utils/async_execute_process_asyncio/impl.py", line 45, in _async_execute_process_nopty
+    transport, protocol = await loop.subprocess_exec(
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1681, in subprocess_exec
+    transport = await self._make_subprocess_transport(
+  File "/usr/lib/python3.10/asyncio/unix_events.py", line 207, in _make_subprocess_transport
+    transp = _UnixSubprocessTransport(self, protocol, args, shell,
+  File "/usr/lib/python3.10/asyncio/base_subprocess.py", line 36, in __init__
+    self._start(args=args, shell=shell, stdin=stdin, stdout=stdout,
+  File "/usr/lib/python3.10/asyncio/unix_events.py", line 799, in _start
+    self._proc = subprocess.Popen(
+  File "/usr/lib/python3.10/subprocess.py", line 971, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/lib/python3.10/subprocess.py", line 1751, in _execute_child
+    self._posix_spawn(args, executable, env, restore_signals,
+  File "/usr/lib/python3.10/subprocess.py", line 1696, in _posix_spawn
+    self.pid = os.posix_spawn(executable, args, env, **kwargs)
+OSError: [Errno 8] Exec format error: '/home/srushtei/ros2_ws/install/my_robot_arm/lib/my_robot_arm/moveit_control.py'
+
+[INFO] [gzserver-1]: process started with pid [17727]
+[INFO] [rviz2-3]: process started with pid [17730]
+[rviz2-3] Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
+[ERROR] [gzserver-1]: process has died [pid 17727, exit code 255, cmd '/usr/bin/gzserver -s libgazebo_ros_factory.so --ros-args'].
+[rviz2-3] [INFO] [1725188835.567412582] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-3] [INFO] [1725188835.567489385] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[rviz2-3] [INFO] [1725188835.579779189] [rviz2]: Stereo is NOT SUPPORTED

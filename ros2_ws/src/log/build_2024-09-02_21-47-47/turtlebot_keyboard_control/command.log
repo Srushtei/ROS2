@@ -1,0 +1,2 @@
+Invoking command in '/home/srushtei/ros2_ws/src/build/turtlebot_keyboard_control': /usr/bin/cmake /home/srushtei/ros2_ws/src/turtlebot_keyboard_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srushtei/ros2_ws/src/install/turtlebot_keyboard_control
+Invoked command in '/home/srushtei/ros2_ws/src/build/turtlebot_keyboard_control' returned '1': /usr/bin/cmake /home/srushtei/ros2_ws/src/turtlebot_keyboard_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/srushtei/ros2_ws/src/install/turtlebot_keyboard_control

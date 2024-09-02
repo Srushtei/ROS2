@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: turtlebot-sine-trajectory
+Version: 0.0.0
+Summary: ROS2 package to make TurtleBot follow a sinusoidal trajectory.
+Home-page: UNKNOWN
+Maintainer: srushtei
+Maintainer-email: srushtei.hn@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

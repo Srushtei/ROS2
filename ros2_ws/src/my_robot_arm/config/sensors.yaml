@@ -1,0 +1,61 @@
+# sensors.yaml
+
+# Camera Configuration
+camera:
+  # General camera settings
+  depth_camera:
+    # Name of the camera
+    name: "depth_camera"
+    # Topic to which depth images are published
+    topic: "/camera/depth/image_rect_raw"
+    # Frame ID for the camera
+    frame_id: "camera_depth_frame"
+    # Size of the image
+    width: 640
+    height: 480
+    # Distortion coefficients (if applicable)
+    distortion_coefficients: [0.1, -0.2, 0.0, 0.0, 0.0]
+
+  # RGB Camera
+  rgb_camera:
+    # Name of the camera
+    name: "rgb_camera"
+    # Topic to which RGB images are published
+    topic: "/camera/rgb/image_rect_color"
+    # Frame ID for the camera
+    frame_id: "camera_rgb_frame"
+    # Size of the image
+    width: 640
+    height: 480
+    # Intrinsic parameters
+    camera_info:
+      K: [525.0, 0.0, 319.5, 0.0, 525.0, 239.5, 0.0, 0.0, 1.0]
+      D: [0.1, -0.2, 0.0, 0.0, 0.0]  # Distortion coefficients
+
+# Lidar Configuration (if applicable)
+lidar:
+  # Name of the Lidar
+  name: "lidar"
+  # Topic to which Lidar scans are published
+  topic: "/lidar/scan"
+  # Frame ID for the Lidar
+  frame_id: "lidar_frame"
+  # Scan parameters
+  scan:
+    angle_min: -1.57  # Minimum angle of the scan [rad]
+    angle_max: 1.57   # Maximum angle of the scan [rad]
+    angle_increment: 0.01  # Angular distance between measurements [rad]
+    time_increment: 0.0  # Time between measurements [s]
+    scan_time: 0.1  # Time between scans [s]
+    range_min: 0.1  # Minimum range value [m]
+    range_max: 30.0  # Maximum range value [m]
+
+# Robot Sensor Configuration
+robot_sensors:
+  # Add any additional sensor configurations here
+  # Example: Force torque sensor
+  force_torque_sensor:
+    name: "force_torque_sensor"
+    topic: "/force_torque_sensor/force"
+    frame_id: "force_torque_frame"
+

@@ -1,0 +1,324 @@
+[0.000000] (-) TimerEvent: {}
+[0.000160] (my_robot_arm) JobQueued: {'identifier': 'my_robot_arm', 'dependencies': OrderedDict()}
+[0.000186] (turtlebot_keyboard_control) JobQueued: {'identifier': 'turtlebot_keyboard_control', 'dependencies': OrderedDict()}
+[0.000305] (turtlebot_sine_trajectory) JobQueued: {'identifier': 'turtlebot_sine_trajectory', 'dependencies': OrderedDict()}
+[0.000722] (my_robot_arm) JobStarted: {'identifier': 'my_robot_arm'}
+[0.005689] (turtlebot_keyboard_control) JobStarted: {'identifier': 'turtlebot_keyboard_control'}
+[0.010650] (turtlebot_sine_trajectory) JobStarted: {'identifier': 'turtlebot_sine_trajectory'}
+[0.016535] (my_robot_arm) JobProgress: {'identifier': 'my_robot_arm', 'progress': 'cmake'}
+[0.016778] (my_robot_arm) Command: {'cmd': ['/usr/bin/cmake', '/home/srushtei/ros2_ws/src/my_robot_arm', '-DCMAKE_INSTALL_PREFIX=/home/srushtei/ros2_ws/install/my_robot_arm'], 'cwd': '/home/srushtei/ros2_ws/build/my_robot_arm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'srushtei'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/srushtei'), ('OLDPWD', '/home/srushtei/ros2_ws/src/turtlebot_keyboard_control/turtlebot_keyboard_control'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '9430'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/srushtei/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'srushtei'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'srushtei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/srushtei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/srushtei/.local/bin:/home/srushtei/.local/bin:/home/srushtei/.local/bin'), ('SESSION_MANAGER', 'local/Srushtei:@/tmp/.ICE-unix/2010,unix/Srushtei:/tmp/.ICE-unix/2010'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ec74a56_ee90_4fcc_a026_c207dc656fcd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VUUST2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.198'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/srushtei/ros2_ws/install/my_robot_arm:/home/srushtei/ros2_ws/install/turtlebot_sine_trajectory:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/srushtei/ros2_ws/build/my_robot_arm'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/srushtei/ros2_ws/install/turtlebot_sine_trajectory/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/srushtei/ros2_ws/install/my_robot_arm:/home/srushtei/ros2_ws/install/turtlebot_sine_trajectory:/opt/ros/humble')]), 'shell': False}
+[0.099792] (-) TimerEvent: {}
+[0.173708] (my_robot_arm) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.173977] (my_robot_arm) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.174404] (my_robot_arm) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.174469] (my_robot_arm) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.174525] (my_robot_arm) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.174578] (my_robot_arm) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.174630] (my_robot_arm) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.174682] (my_robot_arm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199914] (-) TimerEvent: {}
+[0.231142] (my_robot_arm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.238306] (my_robot_arm) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.238479] (my_robot_arm) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.239079] (my_robot_arm) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.241306] (my_robot_arm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300042] (-) TimerEvent: {}
+[0.364565] (my_robot_arm) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.400183] (-) TimerEvent: {}
+[0.434843] (my_robot_arm) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.474159] (my_robot_arm) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.478329] (my_robot_arm) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.483468] (my_robot_arm) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.491597] (my_robot_arm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500399] (-) TimerEvent: {}
+[0.501625] (my_robot_arm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.530833] (my_robot_arm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.532561] (my_robot_arm) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.544668] (turtlebot_sine_trajectory) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtlebot_sine_trajectory', 'build', '--build-base', '/home/srushtei/ros2_ws/build/turtlebot_sine_trajectory/build', 'install', '--record', '/home/srushtei/ros2_ws/build/turtlebot_sine_trajectory/install.log', '--single-version-externally-managed'], 'cwd': '/home/srushtei/ros2_ws/src/turtlebot_sine_trajectory', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'srushtei', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/srushtei', 'OLDPWD': '/home/srushtei/ros2_ws/src/turtlebot_keyboard_control/turtlebot_keyboard_control', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '9430', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/srushtei/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'srushtei', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'srushtei', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/srushtei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/srushtei/.local/bin:/home/srushtei/.local/bin:/home/srushtei/.local/bin', 'SESSION_MANAGER': 'local/Srushtei:@/tmp/.ICE-unix/2010,unix/Srushtei:/tmp/.ICE-unix/2010', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0ec74a56_ee90_4fcc_a026_c207dc656fcd', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VUUST2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.198', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/srushtei/ros2_ws/install/my_robot_arm:/home/srushtei/ros2_ws/install/turtlebot_sine_trajectory:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/srushtei/ros2_ws/build/turtlebot_sine_trajectory', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/srushtei/ros2_ws/build/turtlebot_sine_trajectory/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/srushtei/ros2_ws/install/turtlebot_sine_trajectory/lib/python3.10/site-packages:/home/srushtei/ros2_ws/install/turtlebot_sine_trajectory/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/srushtei/ros2_ws/install/my_robot_arm'}, 'shell': False}
+[0.567543] (turtlebot_keyboard_control) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/turtlebot_keyboard_control', 'build', '--build-base', '/home/srushtei/ros2_ws/build/turtlebot_keyboard_control/build', 'install', '--record', '/home/srushtei/ros2_ws/build/turtlebot_keyboard_control/install.log', '--single-version-externally-managed'], 'cwd': '/home/srushtei/ros2_ws/src/turtlebot_keyboard_control', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'srushtei', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/srushtei', 'OLDPWD': '/home/srushtei/ros2_ws/src/turtlebot_keyboard_control/turtlebot_keyboard_control', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '9430', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/srushtei/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'srushtei', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'srushtei', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/srushtei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/srushtei/.local/bin:/home/srushtei/.local/bin:/home/srushtei/.local/bin', 'SESSION_MANAGER': 'local/Srushtei:@/tmp/.ICE-unix/2010,unix/Srushtei:/tmp/.ICE-unix/2010', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0ec74a56_ee90_4fcc_a026_c207dc656fcd', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.VUUST2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.198', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/srushtei/ros2_ws/install/my_robot_arm:/home/srushtei/ros2_ws/install/turtlebot_sine_trajectory:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/srushtei/ros2_ws/build/turtlebot_keyboard_control', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/srushtei/ros2_ws/build/turtlebot_keyboard_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/srushtei/ros2_ws/install/turtlebot_keyboard_control/lib/python3.10/site-packages:/home/srushtei/ros2_ws/install/turtlebot_sine_trajectory/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/srushtei/ros2_ws/install/my_robot_arm'}, 'shell': False}
+[0.595839] (my_robot_arm) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.600481] (-) TimerEvent: {}
+[0.620046] (my_robot_arm) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.652752] (my_robot_arm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.660991] (my_robot_arm) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.699850] (turtlebot_sine_trajectory) StdoutLine: {'line': b'running egg_info\n'}
+[0.700093] (turtlebot_sine_trajectory) StdoutLine: {'line': b'creating ../../build/turtlebot_sine_trajectory/turtlebot_sine_trajectory.egg-info\n'}
+[0.700258] (turtlebot_sine_trajectory) StdoutLine: {'line': b'writing ../../build/turtlebot_sine_trajectory/turtlebot_sine_trajectory.egg-info/PKG-INFO\n'}
+[0.700401] (turtlebot_sine_trajectory) StdoutLine: {'line': b'writing dependency_links to ../../build/turtlebot_sine_trajectory/turtlebot_sine_trajectory.egg-info/dependency_links.txt\n'}
+[0.700462] (turtlebot_sine_trajectory) StdoutLine: {'line': b'writing entry points to ../../build/turtlebot_sine_trajectory/turtlebot_sine_trajectory.egg-info/entry_points.txt\n'}
+[0.700519] (-) TimerEvent: {}
+[0.700686] (turtlebot_sine_trajectory) StdoutLine: {'line': b'writing requirements to ../../build/turtlebot_sine_trajectory/turtlebot_sine_trajectory.egg-info/requires.txt\n'}
+[0.700751] (turtlebot_sine_trajectory) StdoutLine: {'line': b'writing top-level names to ../../build/turtlebot_sine_trajectory/turtlebot_sine_trajectory.egg-info/top_level.txt\n'}
+[0.700806] (turtlebot_sine_trajectory) StdoutLine: {'line': b"writing manifest file '../../build/turtlebot_sine_trajectory/turtlebot_sine_trajectory.egg-info/SOURCES.txt'\n"}
+[0.701694] (turtlebot_sine_trajectory) StdoutLine: {'line': b"reading manifest file '../../build/turtlebot_sine_trajectory/turtlebot_sine_trajectory.egg-info/SOURCES.txt'\n"}
+[0.702038] (turtlebot_sine_trajectory) StdoutLine: {'line': b"writing manifest file '../../build/turtlebot_sine_trajectory/turtlebot_sine_trajectory.egg-info/SOURCES.txt'\n"}
+[0.702123] (turtlebot_sine_trajectory) StdoutLine: {'line': b'running build\n'}
+[0.702232] (turtlebot_sine_trajectory) StdoutLine: {'line': b'running build_py\n'}
+[0.702288] (turtlebot_sine_trajectory) StdoutLine: {'line': b'creating /home/srushtei/ros2_ws/build/turtlebot_sine_trajectory/build\n'}
+[0.702344] (turtlebot_sine_trajectory) StdoutLine: {'line': b'creating /home/srushtei/ros2_ws/build/turtlebot_sine_trajectory/build/lib\n'}
+[0.702420] (turtlebot_sine_trajectory) StdoutLine: {'line': b'creating /home/srushtei/ros2_ws/build/turtlebot_sine_trajectory/build/lib/turtlebot_sine_trajectory\n'}
+[0.702478] (turtlebot_sine_trajectory) StdoutLine: {'line': b'copying turtlebot_sine_trajectory/__init__.py -> /home/srushtei/ros2_ws/build/turtlebot_sine_trajectory/build/lib/turtlebot_sine_trajectory\n'}
+[0.702535] (turtlebot_sine_trajectory) StdoutLine: {'line': b'creating /home/srushtei/ros2_ws/build/turtlebot_sine_trajectory/build/lib/turtlebot_sine_trajectory/scripts\n'}
+[0.702593] (turtlebot_sine_trajectory) StdoutLine: {'line': b'copying turtlebot_sine_trajectory/scripts/sine_trajectory.py -> /home/srushtei/ros2_ws/build/turtlebot_sine_trajectory/build/lib/turtlebot_sine_trajectory/scripts\n'}
+[0.702666] (turtlebot_sine_trajectory) StdoutLine: {'line': b'running install\n'}
+[0.702737] (turtlebot_sine_trajectory) StdoutLine: {'line': b'running install_lib\n'}
+[0.703149] (turtlebot_sine_trajectory) StdoutLine: {'line': b'creating /home/srushtei/ros2_ws/install/turtlebot_sine_trajectory/lib/python3.10/site-packages/turtlebot_sine_trajectory\n'}
+[0.703244] (turtlebot_sine_trajectory) StdoutLine: {'line': b'copying /home/srushtei/ros2_ws/build/turtlebot_sine_trajectory/build/lib/turtlebot_sine_trajectory/__init__.py -> /home/srushtei/ros2_ws/install/turtlebot_sine_trajectory/lib/python3.10/site-packages/turtlebot_sine_trajectory\n'}
+[0.703346] (turtlebot_sine_trajectory) StdoutLine: {'line': b'creating /home/srushtei/ros2_ws/install/turtlebot_sine_trajectory/lib/python3.10/site-packages/turtlebot_sine_trajectory/scripts\n'}
+[0.703402] (turtlebot_sine_trajectory) StdoutLine: {'line': b'copying /home/srushtei/ros2_ws/build/turtlebot_sine_trajectory/build/lib/turtlebot_sine_trajectory/scripts/sine_trajectory.py -> /home/srushtei/ros2_ws/install/turtlebot_sine_trajectory/lib/python3.10/site-packages/turtlebot_sine_trajectory/scripts\n'}
+[0.703522] (turtlebot_sine_trajectory) StdoutLine: {'line': b'byte-compiling /home/srushtei/ros2_ws/install/turtlebot_sine_trajectory/lib/python3.10/site-packages/turtlebot_sine_trajectory/__init__.py to __init__.cpython-310.pyc\n'}
+[0.703646] (turtlebot_sine_trajectory) StdoutLine: {'line': b'byte-compiling /home/srushtei/ros2_ws/install/turtlebot_sine_trajectory/lib/python3.10/site-packages/turtlebot_sine_trajectory/scripts/sine_trajectory.py to sine_trajectory.cpython-310.pyc\n'}
+[0.703914] (turtlebot_sine_trajectory) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.705657] (turtlebot_sine_trajectory) StdoutLine: {'line': b'Copying ../../build/turtlebot_sine_trajectory/turtlebot_sine_trajectory.egg-info to /home/srushtei/ros2_ws/install/turtlebot_sine_trajectory/lib/python3.10/site-packages/turtlebot_sine_trajectory-0.0.0-py3.10.egg-info\n'}
+[0.705955] (turtlebot_sine_trajectory) StdoutLine: {'line': b'running install_scripts\n'}
+[0.710174] (turtlebot_keyboard_control) StdoutLine: {'line': b'running egg_info\n'}
+[0.710612] (turtlebot_keyboard_control) StdoutLine: {'line': b'creating ../../build/turtlebot_keyboard_control/turtlebot_keyboard_control.egg-info\n'}
+[0.710695] (turtlebot_keyboard_control) StdoutLine: {'line': b'writing ../../build/turtlebot_keyboard_control/turtlebot_keyboard_control.egg-info/PKG-INFO\n'}
+[0.710776] (turtlebot_keyboard_control) StdoutLine: {'line': b'writing dependency_links to ../../build/turtlebot_keyboard_control/turtlebot_keyboard_control.egg-info/dependency_links.txt\n'}
+[0.710852] (turtlebot_keyboard_control) StdoutLine: {'line': b'writing entry points to ../../build/turtlebot_keyboard_control/turtlebot_keyboard_control.egg-info/entry_points.txt\n'}
+[0.710930] (turtlebot_keyboard_control) StdoutLine: {'line': b'writing requirements to ../../build/turtlebot_keyboard_control/turtlebot_keyboard_control.egg-info/requires.txt\n'}
+[0.711025] (turtlebot_keyboard_control) StdoutLine: {'line': b'writing top-level names to ../../build/turtlebot_keyboard_control/turtlebot_keyboard_control.egg-info/top_level.txt\n'}
+[0.711082] (turtlebot_keyboard_control) StdoutLine: {'line': b"writing manifest file '../../build/turtlebot_keyboard_control/turtlebot_keyboard_control.egg-info/SOURCES.txt'\n"}
+[0.712631] (turtlebot_keyboard_control) StdoutLine: {'line': b"reading manifest file '../../build/turtlebot_keyboard_control/turtlebot_keyboard_control.egg-info/SOURCES.txt'\n"}
+[0.713052] (turtlebot_keyboard_control) StdoutLine: {'line': b"writing manifest file '../../build/turtlebot_keyboard_control/turtlebot_keyboard_control.egg-info/SOURCES.txt'\n"}
+[0.713155] (turtlebot_keyboard_control) StdoutLine: {'line': b'running build\n'}
+[0.713216] (turtlebot_keyboard_control) StdoutLine: {'line': b'running build_py\n'}
+[0.713304] (turtlebot_keyboard_control) StdoutLine: {'line': b'creating /home/srushtei/ros2_ws/build/turtlebot_keyboard_control/build\n'}
+[0.713365] (turtlebot_keyboard_control) StdoutLine: {'line': b'creating /home/srushtei/ros2_ws/build/turtlebot_keyboard_control/build/lib\n'}
+[0.713457] (turtlebot_keyboard_control) StdoutLine: {'line': b'creating /home/srushtei/ros2_ws/build/turtlebot_keyboard_control/build/lib/turtlebot_keyboard_control\n'}
+[0.713517] (turtlebot_keyboard_control) StdoutLine: {'line': b'copying turtlebot_keyboard_control/__init__.py -> /home/srushtei/ros2_ws/build/turtlebot_keyboard_control/build/lib/turtlebot_keyboard_control\n'}
+[0.713576] (turtlebot_keyboard_control) StdoutLine: {'line': b'copying turtlebot_keyboard_control/keyboard_control.py -> /home/srushtei/ros2_ws/build/turtlebot_keyboard_control/build/lib/turtlebot_keyboard_control\n'}
+[0.713668] (turtlebot_keyboard_control) StdoutLine: {'line': b'running install\n'}
+[0.713748] (turtlebot_keyboard_control) StdoutLine: {'line': b'running install_lib\n'}
+[0.714204] (turtlebot_keyboard_control) StdoutLine: {'line': b'creating /home/srushtei/ros2_ws/install/turtlebot_keyboard_control/lib/python3.10/site-packages/turtlebot_keyboard_control\n'}
+[0.714289] (turtlebot_keyboard_control) StdoutLine: {'line': b'copying /home/srushtei/ros2_ws/build/turtlebot_keyboard_control/build/lib/turtlebot_keyboard_control/__init__.py -> /home/srushtei/ros2_ws/install/turtlebot_keyboard_control/lib/python3.10/site-packages/turtlebot_keyboard_control\n'}
+[0.714371] (turtlebot_keyboard_control) StdoutLine: {'line': b'copying /home/srushtei/ros2_ws/build/turtlebot_keyboard_control/build/lib/turtlebot_keyboard_control/keyboard_control.py -> /home/srushtei/ros2_ws/install/turtlebot_keyboard_control/lib/python3.10/site-packages/turtlebot_keyboard_control\n'}
+[0.714624] (turtlebot_keyboard_control) StdoutLine: {'line': b'byte-compiling /home/srushtei/ros2_ws/install/turtlebot_keyboard_control/lib/python3.10/site-packages/turtlebot_keyboard_control/__init__.py to __init__.cpython-310.pyc\n'}
+[0.714836] (turtlebot_keyboard_control) StdoutLine: {'line': b'byte-compiling /home/srushtei/ros2_ws/install/turtlebot_keyboard_control/lib/python3.10/site-packages/turtlebot_keyboard_control/keyboard_control.py to keyboard_control.cpython-310.pyc\n'}
+[0.715070] (turtlebot_keyboard_control) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.716281] (turtlebot_keyboard_control) StdoutLine: {'line': b'Copying ../../build/turtlebot_keyboard_control/turtlebot_keyboard_control.egg-info to /home/srushtei/ros2_ws/install/turtlebot_keyboard_control/lib/python3.10/site-packages/turtlebot_keyboard_control-0.0.0-py3.10.egg-info\n'}
+[0.716671] (turtlebot_keyboard_control) StdoutLine: {'line': b'running install_scripts\n'}
+[0.718946] (turtlebot_sine_trajectory) StdoutLine: {'line': b'Installing sine_trajectory script to /home/srushtei/ros2_ws/install/turtlebot_sine_trajectory/lib/turtlebot_sine_trajectory\n'}
+[0.719222] (turtlebot_sine_trajectory) StdoutLine: {'line': b"writing list of installed files to '/home/srushtei/ros2_ws/build/turtlebot_sine_trajectory/install.log'\n"}
+[0.721285] (my_robot_arm) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.721742] (my_robot_arm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.730489] (turtlebot_keyboard_control) StdoutLine: {'line': b'Installing keyboard_control script to /home/srushtei/ros2_ws/install/turtlebot_keyboard_control/lib/turtlebot_keyboard_control\n'}
+[0.730795] (turtlebot_keyboard_control) StdoutLine: {'line': b"writing list of installed files to '/home/srushtei/ros2_ws/build/turtlebot_keyboard_control/install.log'\n"}
+[0.738723] (turtlebot_sine_trajectory) CommandEnded: {'returncode': 0}
+[0.748544] (turtlebot_sine_trajectory) JobEnded: {'identifier': 'turtlebot_sine_trajectory', 'rc': 0}
+[0.751208] (turtlebot_keyboard_control) CommandEnded: {'returncode': 0}
+[0.754944] (turtlebot_keyboard_control) JobEnded: {'identifier': 'turtlebot_keyboard_control', 'rc': 0}
+[0.780969] (my_robot_arm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.782007] (my_robot_arm) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.800647] (-) TimerEvent: {}
+[0.823094] (my_robot_arm) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[0.837048] (my_robot_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[0.900777] (-) TimerEvent: {}
+[0.934337] (my_robot_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[0.941882] (my_robot_arm) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[0.951714] (my_robot_arm) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.965707] (my_robot_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[1.000871] (-) TimerEvent: {}
+[1.046543] (my_robot_arm) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[1.067991] (my_robot_arm) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.068170] (my_robot_arm) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.101036] (-) TimerEvent: {}
+[1.149347] (my_robot_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[1.168564] (my_robot_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[1.181670] (my_robot_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[1.198409] (my_robot_arm) StdoutLine: {'line': b'-- Found moveit_ros_visualization: 2.5.5 (/opt/ros/humble/share/moveit_ros_visualization/cmake)\n'}
+[1.201245] (-) TimerEvent: {}
+[1.201495] (my_robot_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread date_time system filesystem \n'}
+[1.222149] (my_robot_arm) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[1.222938] (my_robot_arm) StdoutLine: {'line': b'-- Found OGRE\n'}
+[1.223069] (my_robot_arm) StdoutLine: {'line': b'--   static     : OFF\n'}
+[1.223263] (my_robot_arm) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[1.223335] (my_robot_arm) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[1.223407] (my_robot_arm) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[1.223463] (my_robot_arm) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[1.223526] (my_robot_arm) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[1.223581] (my_robot_arm) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[1.223635] (my_robot_arm) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[1.223688] (my_robot_arm) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[1.223742] (my_robot_arm) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[1.223794] (my_robot_arm) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[1.223847] (my_robot_arm) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[1.233617] (my_robot_arm) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[1.235879] (my_robot_arm) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[1.301404] (-) TimerEvent: {}
+[1.306621] (my_robot_arm) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.306939] (my_robot_arm) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.373183] (my_robot_arm) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.373343] (my_robot_arm) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.401545] (-) TimerEvent: {}
+[1.419186] (my_robot_arm) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.419362] (my_robot_arm) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.474091] (my_robot_arm) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.474260] (my_robot_arm) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.501755] (-) TimerEvent: {}
+[1.532799] (my_robot_arm) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.532951] (my_robot_arm) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.591075] (my_robot_arm) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.591232] (my_robot_arm) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.601906] (-) TimerEvent: {}
+[1.657410] (my_robot_arm) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.668996] (my_robot_arm) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[1.702035] (-) TimerEvent: {}
+[1.715814] (my_robot_arm) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[1.722813] (my_robot_arm) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.724004] (my_robot_arm) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.735346] (my_robot_arm) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.802161] (-) TimerEvent: {}
+[1.863072] (my_robot_arm) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.902315] (-) TimerEvent: {}
+[1.940980] (my_robot_arm) StdoutLine: {'line': b'-- Found assimp: /usr/include;/usr/include (found version "5.2.0") \n'}
+[1.950766] (my_robot_arm) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.961361] (my_robot_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.973115] (my_robot_arm) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.975945] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.980298] (my_robot_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.981179] (my_robot_arm) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.981407] (my_robot_arm) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.985598] (my_robot_arm) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.996960] (my_robot_arm) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[2.002412] (-) TimerEvent: {}
+[2.051468] (my_robot_arm) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.065467] (my_robot_arm) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.068270] (my_robot_arm) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.070837] (my_robot_arm) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.073671] (my_robot_arm) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.076575] (my_robot_arm) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.079144] (my_robot_arm) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.102509] (-) TimerEvent: {}
+[2.136547] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.137888] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[2.138038] (my_robot_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.149460] (my_robot_arm) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[2.155508] (my_robot_arm) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.159538] (my_robot_arm) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.170477] (my_robot_arm) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[2.202645] (-) TimerEvent: {}
+[2.221439] (my_robot_arm) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[2.232199] (my_robot_arm) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.257458] (my_robot_arm) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[2.302792] (-) TimerEvent: {}
+[2.310946] (my_robot_arm) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[2.314200] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.314996] (my_robot_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.328040] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.332618] (my_robot_arm) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.346552] (my_robot_arm) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[2.395835] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.399007] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.399337] (my_robot_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.399507] (my_robot_arm) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.400286] (my_robot_arm) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.401561] (my_robot_arm) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[2.402992] (-) TimerEvent: {}
+[2.411916] (my_robot_arm) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[2.412232] (my_robot_arm) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.414477] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[2.414762] (my_robot_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.414977] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.416624] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[2.416807] (my_robot_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[2.438032] (my_robot_arm) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[2.446211] (my_robot_arm) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.456802] (my_robot_arm) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.501199] (my_robot_arm) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[2.503139] (-) TimerEvent: {}
+[2.509579] (my_robot_arm) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.532682] (my_robot_arm) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.586623] (my_robot_arm) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[2.586844] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.587181] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.587590] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.589492] (my_robot_arm) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[2.589702] (my_robot_arm) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[2.603265] (-) TimerEvent: {}
+[2.606847] (my_robot_arm) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[2.666141] (my_robot_arm) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.703352] (-) TimerEvent: {}
+[2.709223] (my_robot_arm) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.723501] (my_robot_arm) StdoutLine: {'line': b'-- Generating done\n'}
+[2.725285] (my_robot_arm) StdoutLine: {'line': b'-- Build files have been written to: /home/srushtei/ros2_ws/build/my_robot_arm\n'}
+[2.737763] (my_robot_arm) CommandEnded: {'returncode': 0}
+[2.738438] (my_robot_arm) JobProgress: {'identifier': 'my_robot_arm', 'progress': 'build'}
+[2.739299] (my_robot_arm) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/srushtei/ros2_ws/build/my_robot_arm', '--', '-j12', '-l12'], 'cwd': '/home/srushtei/ros2_ws/build/my_robot_arm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'srushtei'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/srushtei'), ('OLDPWD', '/home/srushtei/ros2_ws/src/turtlebot_keyboard_control/turtlebot_keyboard_control'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '9430'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/srushtei/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'srushtei'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'srushtei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/srushtei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/srushtei/.local/bin:/home/srushtei/.local/bin:/home/srushtei/.local/bin'), ('SESSION_MANAGER', 'local/Srushtei:@/tmp/.ICE-unix/2010,unix/Srushtei:/tmp/.ICE-unix/2010'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ec74a56_ee90_4fcc_a026_c207dc656fcd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VUUST2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.198'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/srushtei/ros2_ws/install/my_robot_arm:/home/srushtei/ros2_ws/install/turtlebot_sine_trajectory:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/srushtei/ros2_ws/build/my_robot_arm'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/srushtei/ros2_ws/install/turtlebot_sine_trajectory/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/srushtei/ros2_ws/install/my_robot_arm:/home/srushtei/ros2_ws/install/turtlebot_sine_trajectory:/opt/ros/humble')]), 'shell': False}
+[2.781120] (my_robot_arm) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/move_arm_node.dir/src/move_arm_node.cpp.o\x1b[0m\n'}
+[2.803462] (-) TimerEvent: {}
+[2.903821] (-) TimerEvent: {}
+[3.004229] (-) TimerEvent: {}
+[3.104592] (-) TimerEvent: {}
+[3.204849] (-) TimerEvent: {}
+[3.305095] (-) TimerEvent: {}
+[3.405364] (-) TimerEvent: {}
+[3.505630] (-) TimerEvent: {}
+[3.605938] (-) TimerEvent: {}
+[3.706200] (-) TimerEvent: {}
+[3.806478] (-) TimerEvent: {}
+[3.906734] (-) TimerEvent: {}
+[4.007037] (-) TimerEvent: {}
+[4.107290] (-) TimerEvent: {}
+[4.207670] (-) TimerEvent: {}
+[4.307978] (-) TimerEvent: {}
+[4.408289] (-) TimerEvent: {}
+[4.508537] (-) TimerEvent: {}
+[4.608825] (-) TimerEvent: {}
+[4.709184] (-) TimerEvent: {}
+[4.809491] (-) TimerEvent: {}
+[4.909801] (-) TimerEvent: {}
+[5.010200] (-) TimerEvent: {}
+[5.110453] (-) TimerEvent: {}
+[5.210712] (-) TimerEvent: {}
+[5.311048] (-) TimerEvent: {}
+[5.411324] (-) TimerEvent: {}
+[5.511581] (-) TimerEvent: {}
+[5.611982] (-) TimerEvent: {}
+[5.712337] (-) TimerEvent: {}
+[5.812591] (-) TimerEvent: {}
+[5.912972] (-) TimerEvent: {}
+[6.013308] (-) TimerEvent: {}
+[6.113582] (-) TimerEvent: {}
+[6.213868] (-) TimerEvent: {}
+[6.314178] (-) TimerEvent: {}
+[6.414435] (-) TimerEvent: {}
+[6.514723] (-) TimerEvent: {}
+[6.615086] (-) TimerEvent: {}
+[6.715387] (-) TimerEvent: {}
+[6.815694] (-) TimerEvent: {}
+[6.850488] (my_robot_arm) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable move_arm_node\x1b[0m\n'}
+[6.915821] (-) TimerEvent: {}
+[7.016082] (-) TimerEvent: {}
+[7.026308] (my_robot_arm) StdoutLine: {'line': b'[100%] Built target move_arm_node\n'}
+[7.035161] (my_robot_arm) CommandEnded: {'returncode': 0}
+[7.056258] (my_robot_arm) JobProgress: {'identifier': 'my_robot_arm', 'progress': 'install'}
+[7.062737] (my_robot_arm) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/srushtei/ros2_ws/build/my_robot_arm'], 'cwd': '/home/srushtei/ros2_ws/build/my_robot_arm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'srushtei'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/srushtei'), ('OLDPWD', '/home/srushtei/ros2_ws/src/turtlebot_keyboard_control/turtlebot_keyboard_control'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '9430'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/srushtei/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'srushtei'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'srushtei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/srushtei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/srushtei/.local/bin:/home/srushtei/.local/bin:/home/srushtei/.local/bin'), ('SESSION_MANAGER', 'local/Srushtei:@/tmp/.ICE-unix/2010,unix/Srushtei:/tmp/.ICE-unix/2010'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ec74a56_ee90_4fcc_a026_c207dc656fcd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VUUST2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.198'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/srushtei/ros2_ws/install/my_robot_arm:/home/srushtei/ros2_ws/install/turtlebot_sine_trajectory:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/srushtei/ros2_ws/build/my_robot_arm'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/srushtei/ros2_ws/install/turtlebot_sine_trajectory/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/srushtei/ros2_ws/install/my_robot_arm:/home/srushtei/ros2_ws/install/turtlebot_sine_trajectory:/opt/ros/humble')]), 'shell': False}
+[7.067702] (my_robot_arm) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.067922] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/lib/my_robot_arm/moveit_control.py\n'}
+[7.068079] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/share/my_robot_arm/urdf\n'}
+[7.068178] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/share/my_robot_arm/urdf/my_robot.urdf\n'}
+[7.068260] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/share/my_robot_arm/launch\n'}
+[7.068340] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/share/my_robot_arm/launch/moveit_gazebo.launch.py\n'}
+[7.068403] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/share/my_robot_arm/launch/move_arm_launch.py\n'}
+[7.068487] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/share/my_robot_arm/launch/moveit_rviz.launch.py\n'}
+[7.068565] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/lib/my_robot_arm/move_arm_node\n'}
+[7.068647] (my_robot_arm) StdoutLine: {'line': b'-- Set runtime path of "/home/srushtei/ros2_ws/install/my_robot_arm/lib/my_robot_arm/move_arm_node" to ""\n'}
+[7.068720] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/share/ament_index/resource_index/package_run_dependencies/my_robot_arm\n'}
+[7.068798] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/share/ament_index/resource_index/parent_prefix_path/my_robot_arm\n'}
+[7.068870] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/share/my_robot_arm/environment/ament_prefix_path.sh\n'}
+[7.068947] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/share/my_robot_arm/environment/ament_prefix_path.dsv\n'}
+[7.069016] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/share/my_robot_arm/environment/path.sh\n'}
+[7.069073] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/share/my_robot_arm/environment/path.dsv\n'}
+[7.069138] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/share/my_robot_arm/local_setup.bash\n'}
+[7.069257] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/share/my_robot_arm/local_setup.sh\n'}
+[7.069296] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/share/my_robot_arm/local_setup.zsh\n'}
+[7.069323] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/share/my_robot_arm/local_setup.dsv\n'}
+[7.069354] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/share/my_robot_arm/package.dsv\n'}
+[7.069379] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/share/ament_index/resource_index/packages/my_robot_arm\n'}
+[7.069403] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/share/my_robot_arm/cmake/my_robot_armConfig.cmake\n'}
+[7.069427] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/share/my_robot_arm/cmake/my_robot_armConfig-version.cmake\n'}
+[7.069450] (my_robot_arm) StdoutLine: {'line': b'-- Installing: /home/srushtei/ros2_ws/install/my_robot_arm/share/my_robot_arm/package.xml\n'}
+[7.070169] (my_robot_arm) CommandEnded: {'returncode': 0}
+[7.101118] (my_robot_arm) JobEnded: {'identifier': 'my_robot_arm', 'rc': 0}
+[7.101600] (-) EventReactorShutdown: {}

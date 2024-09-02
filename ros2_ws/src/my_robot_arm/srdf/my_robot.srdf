@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<robot name="simple_6dof_arm">
+  <!-- Define the end-effector -->
+  <end_effector name="end_effector">
+    <parent_link>link5</parent_link>
+    <pose>0 0 0.2 0 0 0</pose>
+  </end_effector>
+
+  <!-- Define the joints -->
+  <group name="arm">
+    <joint name="joint1"/>
+    <joint name="joint2"/>
+    <joint name="joint3"/>
+    <joint name="joint4"/>
+    <joint name="joint5"/>
+    <joint name="joint6"/>
+  </group>
+
+  <!-- Define the planning group -->
+  <group name="manipulator">
+    <joint name="joint1"/>
+    <joint name="joint2"/>
+    <joint name="joint3"/>
+    <joint name="joint4"/>
+    <joint name="joint5"/>
+    <joint name="joint6"/>
+    <end_effector name="end_effector"/>
+  </group>
+
+  <!-- Define the robot's virtual joints -->
+  <virtual_joint name="world_joint" type="fixed">
+    <parent_link>base_link</parent_link>
+    <child_link>link1</child_link>
+  </virtual_joint>
+
+  <!-- Define the kinematic chains -->
+  <kinematic_chain name="arm_kinematics">
+    <root_link>base_link</root_link>
+    <tip_link>end_effector</tip_link>
+  </kinematic_chain>
+</robot>

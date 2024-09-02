@@ -1,0 +1,179 @@
+moveit:
+  use_sim_time: true
+  robot_description: >
+    <robot name="simple_6dof_arm">
+      robot name="simple_6dof_arm">
+  <!-- Base link -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0.1"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0.0 0.0 1.0 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Link 1 -->
+  <link name="link1">
+    <visual>
+      <geometry>
+        <box size="0.2 0.02 0.02"/>
+      </geometry>
+      <material name="red">
+        <color rgba="1.0 0.0 0.0 1.0"/>
+      </material>
+    </visual>
+  </link>
+  
+    <!-- Link 2 -->
+  <link name="link2">
+    <visual>
+      <geometry>
+        <box size="0.2 0.02 0.02"/>
+      </geometry>
+      <material name="green">
+        <color rgba="0.0 1.0 0.0 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Link 3 -->
+  <link name="link3">
+    <visual>
+      <geometry>
+        <box size="0.2 0.02 0.02"/>
+      </geometry>
+      <material name="yellow">
+        <color rgba="1.0 1.0 0.0 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Link 4 -->
+  <link name="link4">
+    <visual>
+      <geometry>
+        <box size="0.2 0.02 0.02"/>
+      </geometry>
+      <material name="cyan">
+        <color rgba="0.0 1.0 1.0 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Link 5 -->
+  <link name="link5">
+    <visual>
+      <geometry>
+        <box size="0.2 0.02 0.02"/>
+      </geometry>
+      <material name="magenta">
+        <color rgba="1.0 0.0 1.0 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- End-effector -->
+  <link name="end_effector">
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0.1"/>
+      </geometry>
+      <material name="gray">
+        <color rgba="0.5 0.5 0.5 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Joints -->
+  <joint name="joint1" type="revolute">
+    <parent link="base_link"/>
+    <child link="link1"/>
+    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="1"/>
+  </joint>
+
+  <joint name="joint2" type="revolute">
+    <parent link="link1"/>
+    <child link="link2"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="1"/>
+  </joint>
+
+  <joint name="joint3" type="revolute">
+    <parent link="link2"/>
+    <child link="link3"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="1"/>
+  </joint>
+
+  <joint name="joint4" type="revolute">
+    <parent link="link3"/>
+    <child link="link4"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="1"/>
+  </joint>
+
+  <joint name="joint6" type="revolute">
+    <parent link="link5"/>
+    <child link="end_effector"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14" upper="3.14" effort="10" velocity="1"/>
+  </joint>
+   </robot>
+  robot_description_semantic: >
+    <!-- Your SRDF content -->
+    ?xml version="1.0"?>
+<robot name="simple_6dof_arm">
+  <!-- Define the end-effector -->
+  <end_effector name="end_effector">
+    <parent_link>link5</parent_link>
+    <pose>0 0 0.2 0 0 0</pose>
+  </end_effector>
+
+  <!-- Define the joints -->
+  <group name="arm">
+    <joint name="joint1"/>
+    <joint name="joint2"/>
+    <joint name="joint3"/>
+    <joint name="joint4"/>
+    <joint name="joint5"/>
+    <joint name="joint6"/>
+  </group>
+
+  <!-- Define the planning group -->
+  <group name="manipulator">
+    <joint name="joint1"/>
+    <joint name="joint2"/>
+    <joint name="joint3"/>
+    <joint name="joint4"/>
+    <joint name="joint5"/>
+    <joint name="joint6"/>
+    <end_effector name="end_effector"/>
+  </group>
+
+  <!-- Define the robot's virtual joints -->
+  <virtual_joint name="world_joint" type="fixed">
+    <parent_link>base_link</parent_link>
+    <child_link>link1</child_link>
+  </virtual_joint>
+
+  <!-- Define the kinematic chains -->
+  <kinematic_chain name="arm_kinematics">
+    <root_link>base_link</root_link>
+    <tip_link>end_effector</tip_link>
+  </kinematic_chain>
+</robot>
+
+
+
+
+
+

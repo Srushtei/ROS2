@@ -1,0 +1,81 @@
+# moveit_config.yaml
+
+# Robot Description
+robot_description: '/ros2_ws/src/my_robot_arm/urdf/my_robot.urdf'
+
+# Planning Parameters
+planning:
+  planner_configs:
+    - ompl
+  planner:
+    type: "OMPL"
+    settings:
+      planner_configs:
+        RRTConnect:
+          type: geometric::RRTConnect
+          range: 0.0
+        PRM:
+          type: geometric::PRM
+          range: 0.0
+
+  planning_pipeline:
+    pipeline: "ompl"
+
+# MoveIt State Monitor
+moveit_state_monitor:
+  robot_description: '/ros2_ws/src/my_robot_arm/urdf/my_robot.urdf'
+
+# Robot Controller Manager
+moveit_controller_manager: moveit_simple_controller_manager/MoveItSimpleControllerManager
+
+# End Effector
+end_effector:
+  name: "gripper"
+  group: "arm"
+
+# MoveIt Services
+services:
+  - name: "get_planning_scene"
+    service: "get_planning_scene"
+  - name: "apply_planning_scene"
+    service: "apply_planning_scene"
+  - name: "set_start_state_to_current_state"
+    service: "set_start_state_to_current_state"
+  - name: "get_robot_state"
+    service: "get_robot_state"
+
+# Planning Scene Monitor
+planning_scene_monitor:
+  robot_description: '/ros2_ws/src/my_robot_arm/urdf/my_robot.urdf'
+  monitor:
+    enabled: true
+    rate: 2.0
+
+# Planning Parameters
+planning:
+  max_planning_time: 5.0
+  planning_attempts: 5
+  allow_replanning: true
+  replan_attempts: 5
+  replan_delay: 5.0
+  planner_configs:
+    RRTConnect:
+      type: geometric::RRTConnect
+      range: 0.0
+    PRM:
+      type: geometric::PRM
+      range: 0.0
+
+# Move Group Node
+move_group:
+  name: "move_group"
+  parameters:
+    - moveit_config.yaml
+
+# MoveIt Controllers
+moveit_controller_manager:
+  controller_manager:
+    - name: "arm_controller"
+      type: "moveit_simple_controller_manager/MoveItSimpleControllerManager"
+      default: true
+

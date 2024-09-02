@@ -1,0 +1,187 @@
+[0.000000] (-) TimerEvent: {}
+[0.000451] (my_robot_arm) JobQueued: {'identifier': 'my_robot_arm', 'dependencies': OrderedDict()}
+[0.000553] (turtlebot_keyboard_control) JobQueued: {'identifier': 'turtlebot_keyboard_control', 'dependencies': OrderedDict()}
+[0.000574] (turtlebot_sine_trajectory) JobQueued: {'identifier': 'turtlebot_sine_trajectory', 'dependencies': OrderedDict()}
+[0.000592] (my_robot_arm) JobStarted: {'identifier': 'my_robot_arm'}
+[0.003891] (turtlebot_keyboard_control) JobStarted: {'identifier': 'turtlebot_keyboard_control'}
+[0.007387] (turtlebot_sine_trajectory) JobStarted: {'identifier': 'turtlebot_sine_trajectory'}
+[0.011832] (my_robot_arm) JobProgress: {'identifier': 'my_robot_arm', 'progress': 'cmake'}
+[0.012046] (my_robot_arm) Command: {'cmd': ['/usr/bin/cmake', '/home/srushtei/ros2_ws/src/my_robot_arm', '-DCMAKE_INSTALL_PREFIX=/home/srushtei/ros2_ws/src/install/my_robot_arm'], 'cwd': '/home/srushtei/ros2_ws/src/build/my_robot_arm', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'srushtei'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/srushtei'), ('OLDPWD', '/home/srushtei/ros2_ws/src/turtlebot_keyboard_control'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '9430'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/srushtei/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'srushtei'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'srushtei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/srushtei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/srushtei/.local/bin:/home/srushtei/.local/bin:/home/srushtei/.local/bin'), ('SESSION_MANAGER', 'local/Srushtei:@/tmp/.ICE-unix/2010,unix/Srushtei:/tmp/.ICE-unix/2010'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ec74a56_ee90_4fcc_a026_c207dc656fcd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VUUST2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.198'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/srushtei/ros2_ws/install/turtlebot_sine_trajectory:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/srushtei/ros2_ws/src/build/my_robot_arm'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/srushtei/ros2_ws/install/turtlebot_sine_trajectory/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/srushtei/ros2_ws/install/turtlebot_sine_trajectory:/opt/ros/humble')]), 'shell': False}
+[0.013875] (turtlebot_keyboard_control) JobProgress: {'identifier': 'turtlebot_keyboard_control', 'progress': 'cmake'}
+[0.014006] (turtlebot_keyboard_control) Command: {'cmd': ['/usr/bin/cmake', '/home/srushtei/ros2_ws/src/turtlebot_keyboard_control', '-DCATKIN_INSTALL_INTO_PREFIX_ROOT=0', '-DCMAKE_INSTALL_PREFIX=/home/srushtei/ros2_ws/src/install/turtlebot_keyboard_control'], 'cwd': '/home/srushtei/ros2_ws/src/build/turtlebot_keyboard_control', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'srushtei'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/srushtei'), ('OLDPWD', '/home/srushtei/ros2_ws/src/turtlebot_keyboard_control'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '9430'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/srushtei/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'srushtei'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'srushtei'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/srushtei/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/srushtei/.local/bin:/home/srushtei/.local/bin:/home/srushtei/.local/bin'), ('SESSION_MANAGER', 'local/Srushtei:@/tmp/.ICE-unix/2010,unix/Srushtei:/tmp/.ICE-unix/2010'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0ec74a56_ee90_4fcc_a026_c207dc656fcd'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.VUUST2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.198'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/srushtei/ros2_ws/install/turtlebot_sine_trajectory:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/srushtei/ros2_ws/src/build/turtlebot_keyboard_control'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/srushtei/ros2_ws/install/turtlebot_sine_trajectory/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.019254] (turtlebot_keyboard_control) StderrLine: {'line': b'\x1b[0mCMake Error: The source directory "/home/srushtei/ros2_ws/src/turtlebot_keyboard_control" does not appear to contain CMakeLists.txt.\n'}
+[0.019450] (turtlebot_keyboard_control) StderrLine: {'line': b'Specify --help for usage, or press the help button on the CMake GUI.\x1b[0m\n'}
+[0.054838] (my_robot_arm) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.096500] (my_robot_arm) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.099938] (-) TimerEvent: {}
+[0.102660] (my_robot_arm) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.158132] (my_robot_arm) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.162230] (my_robot_arm) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.162406] (my_robot_arm) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.162563] (my_robot_arm) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.164986] (my_robot_arm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.168042] (turtlebot_keyboard_control) CommandEnded: {'returncode': 1}
+[0.168818] (turtlebot_keyboard_control) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/catkin/build.py", line 74, in build\n    rc = await extension.build(\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build\n    rc = await self._reconfigure(args, env)\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure\n    buildfile = get_buildfile(cmake_cache)\n  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 114, in get_buildfile\n    if \'Visual Studio\' in generator:\nTypeError: argument of type \'NoneType\' is not iterable\n'}
+[0.169040] (turtlebot_keyboard_control) JobEnded: {'identifier': 'turtlebot_keyboard_control', 'rc': 1}
+[0.169308] (turtlebot_sine_trajectory) JobEnded: {'identifier': 'turtlebot_sine_trajectory', 'rc': 'SIGINT'}
+[0.200077] (-) TimerEvent: {}
+[0.223982] (my_robot_arm) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.228680] (my_robot_arm) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.228909] (my_robot_arm) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.229121] (my_robot_arm) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.230605] (my_robot_arm) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300256] (-) TimerEvent: {}
+[0.334793] (my_robot_arm) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.388433] (my_robot_arm) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400442] (-) TimerEvent: {}
+[0.412895] (my_robot_arm) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.415783] (my_robot_arm) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.420600] (my_robot_arm) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.426938] (my_robot_arm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.435816] (my_robot_arm) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.459753] (my_robot_arm) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.461287] (my_robot_arm) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500666] (-) TimerEvent: {}
+[0.526664] (my_robot_arm) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.546516] (my_robot_arm) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.572652] (my_robot_arm) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.580512] (my_robot_arm) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.600865] (-) TimerEvent: {}
+[0.634592] (my_robot_arm) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.634759] (my_robot_arm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.685898] (my_robot_arm) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.686510] (my_robot_arm) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.700988] (-) TimerEvent: {}
+[0.714647] (my_robot_arm) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[0.728005] (my_robot_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[0.801143] (-) TimerEvent: {}
+[0.825113] (my_robot_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[0.832420] (my_robot_arm) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[0.842140] (my_robot_arm) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[0.856460] (my_robot_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[0.901290] (-) TimerEvent: {}
+[0.931647] (my_robot_arm) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[0.954464] (my_robot_arm) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.954630] (my_robot_arm) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.001480] (-) TimerEvent: {}
+[1.034163] (my_robot_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[1.053275] (my_robot_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[1.066212] (my_robot_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[1.082554] (my_robot_arm) StdoutLine: {'line': b'-- Found moveit_ros_visualization: 2.5.5 (/opt/ros/humble/share/moveit_ros_visualization/cmake)\n'}
+[1.085375] (my_robot_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread date_time system filesystem \n'}
+[1.101601] (-) TimerEvent: {}
+[1.105746] (my_robot_arm) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[1.106548] (my_robot_arm) StdoutLine: {'line': b'-- Found OGRE\n'}
+[1.106652] (my_robot_arm) StdoutLine: {'line': b'--   static     : OFF\n'}
+[1.106718] (my_robot_arm) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[1.106776] (my_robot_arm) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[1.106833] (my_robot_arm) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[1.106957] (my_robot_arm) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[1.107051] (my_robot_arm) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[1.107112] (my_robot_arm) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[1.107169] (my_robot_arm) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[1.107223] (my_robot_arm) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[1.107277] (my_robot_arm) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[1.107329] (my_robot_arm) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[1.107399] (my_robot_arm) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[1.116707] (my_robot_arm) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[1.118971] (my_robot_arm) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[1.191551] (my_robot_arm) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.191775] (my_robot_arm) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.201714] (-) TimerEvent: {}
+[1.254341] (my_robot_arm) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.254526] (my_robot_arm) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.301932] (-) TimerEvent: {}
+[1.307916] (my_robot_arm) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.308046] (my_robot_arm) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.379960] (my_robot_arm) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.380159] (my_robot_arm) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.402042] (-) TimerEvent: {}
+[1.437791] (my_robot_arm) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.437941] (my_robot_arm) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.493817] (my_robot_arm) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.493967] (my_robot_arm) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.502275] (-) TimerEvent: {}
+[1.555305] (my_robot_arm) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.566878] (my_robot_arm) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[1.602495] (-) TimerEvent: {}
+[1.615676] (my_robot_arm) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[1.622478] (my_robot_arm) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[1.623258] (my_robot_arm) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[1.633689] (my_robot_arm) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[1.702687] (-) TimerEvent: {}
+[1.744818] (my_robot_arm) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[1.792167] (my_robot_arm) StdoutLine: {'line': b'-- Found assimp: /usr/include;/usr/include (found version "5.2.0") \n'}
+[1.798600] (my_robot_arm) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.802886] (-) TimerEvent: {}
+[1.810653] (my_robot_arm) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[1.823280] (my_robot_arm) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.826428] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.830060] (my_robot_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.831090] (my_robot_arm) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.831248] (my_robot_arm) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[1.835780] (my_robot_arm) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[1.846680] (my_robot_arm) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[1.893753] (my_robot_arm) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.902966] (-) TimerEvent: {}
+[1.904779] (my_robot_arm) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.907997] (my_robot_arm) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.910957] (my_robot_arm) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.913556] (my_robot_arm) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.916068] (my_robot_arm) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.918487] (my_robot_arm) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.974277] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.975495] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.975781] (my_robot_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.986983] (my_robot_arm) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.997076] (my_robot_arm) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.001125] (my_robot_arm) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.003052] (-) TimerEvent: {}
+[2.012179] (my_robot_arm) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[2.060019] (my_robot_arm) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[2.069489] (my_robot_arm) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.092245] (my_robot_arm) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[2.103237] (-) TimerEvent: {}
+[2.148585] (my_robot_arm) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[2.152088] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.152636] (my_robot_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.166655] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.171899] (my_robot_arm) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.186062] (my_robot_arm) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[2.203374] (-) TimerEvent: {}
+[2.240278] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.243240] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.244407] (my_robot_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.244766] (my_robot_arm) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.246291] (my_robot_arm) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.249582] (my_robot_arm) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[2.260569] (my_robot_arm) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[2.260850] (my_robot_arm) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.262162] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[2.262343] (my_robot_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.262614] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.264561] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[2.264819] (my_robot_arm) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[2.286305] (my_robot_arm) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[2.294176] (my_robot_arm) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.303474] (-) TimerEvent: {}
+[2.310069] (my_robot_arm) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.367860] (my_robot_arm) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[2.376664] (my_robot_arm) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.398214] (my_robot_arm) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[2.403590] (-) TimerEvent: {}
+[2.451465] (my_robot_arm) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[2.452035] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.452391] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.452888] (my_robot_arm) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.455025] (my_robot_arm) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[2.455259] (my_robot_arm) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[2.475897] (my_robot_arm) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[2.503695] (-) TimerEvent: {}
+[2.528284] (my_robot_arm) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.576299] (my_robot_arm) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.591114] (my_robot_arm) StdoutLine: {'line': b'-- Generating done\n'}
+[2.592982] (my_robot_arm) StdoutLine: {'line': b'-- Build files have been written to: /home/srushtei/ros2_ws/src/build/my_robot_arm\n'}
+[2.603848] (-) TimerEvent: {}
+[2.604426] (my_robot_arm) JobEnded: {'identifier': 'my_robot_arm', 'rc': 'SIGINT'}
+[2.614946] (-) EventReactorShutdown: {}

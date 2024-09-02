@@ -1,0 +1,143 @@
+[0.013s] Invoking command in '/home/srushtei/ros2_ws/src/build/my_robot_arm': CMAKE_PREFIX_PATH=/home/srushtei/ros2_ws/install/turtlebot_sine_trajectory:/opt/ros/humble /usr/bin/cmake /home/srushtei/ros2_ws/src/my_robot_arm -DCMAKE_INSTALL_PREFIX=/home/srushtei/ros2_ws/src/install/my_robot_arm
+[0.054s] -- The C compiler identification is GNU 11.4.0
+[0.096s] -- The CXX compiler identification is GNU 11.4.0
+[0.102s] -- Detecting C compiler ABI info
+[0.158s] -- Detecting C compiler ABI info - done
+[0.162s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.162s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.164s] -- Detecting CXX compiler ABI info
+[0.223s] -- Detecting CXX compiler ABI info - done
+[0.228s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.228s] -- Detecting CXX compile features
+[0.229s] -- Detecting CXX compile features - done
+[0.230s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.334s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.388s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.412s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.415s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.420s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.426s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.435s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.459s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.461s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.526s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.546s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.572s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.580s] -- Looking for pthread.h
+[0.634s] -- Looking for pthread.h - found
+[0.634s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.685s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.686s] -- Found Threads: TRUE  
+[0.714s] -- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+[0.728s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[0.825s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.832s] -- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)
+[0.842s] -- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[0.856s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[0.931s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[0.954s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.954s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.034s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[1.053s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[1.066s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[1.082s] -- Found moveit_ros_visualization: 2.5.5 (/opt/ros/humble/share/moveit_ros_visualization/cmake)
+[1.085s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread date_time system filesystem 
+[1.105s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[1.106s] -- Found OGRE
+[1.106s] --   static     : OFF
+[1.106s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[1.106s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.106s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[1.106s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[1.106s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[1.107s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[1.107s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[1.107s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.107s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[1.107s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.107s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[1.116s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.118s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[1.191s] -- Found X11: /usr/include   
+[1.191s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.254s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.254s] -- Looking for gethostbyname
+[1.307s] -- Looking for gethostbyname - found
+[1.307s] -- Looking for connect
+[1.380s] -- Looking for connect - found
+[1.380s] -- Looking for remove
+[1.437s] -- Looking for remove - found
+[1.437s] -- Looking for shmat
+[1.493s] -- Looking for shmat - found
+[1.493s] -- Looking for IceConnectionNumber in ICE
+[1.555s] -- Looking for IceConnectionNumber in ICE - found
+[1.566s] -- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'
+[1.615s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.622s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[1.623s] -- Checking for module 'bullet>=2.82'
+[1.633s] --   Found bullet, version 3.05
+[1.744s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[1.792s] -- Found assimp: /usr/include;/usr/include (found version "5.2.0") 
+[1.798s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.810s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.823s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.826s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.830s] -- Searching for dependencies of ignition-math6
+[1.831s] -- Looking for OGRE...
+[1.831s] -- OGRE_PREFIX_WATCH changed.
+[1.835s] -- Checking for module 'OGRE'
+[1.846s] --   Found OGRE, version 1.9.0
+[1.893s] -- Found Ogre Ghadamon (1.9.0)
+[1.904s] -- Looking for OGRE_Paging...
+[1.908s] -- Looking for OGRE_Terrain...
+[1.910s] -- Looking for OGRE_Property...
+[1.913s] -- Looking for OGRE_RTShaderSystem...
+[1.916s] -- Looking for OGRE_Volume...
+[1.918s] -- Looking for OGRE_Overlay...
+[1.974s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.975s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.975s] -- Searching for dependencies of ignition-transport8
+[1.987s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.997s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.001s] -- Checking for module 'libzmq >= 4'
+[2.012s] --   Found libzmq , version 4.3.4
+[2.060s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.069s] -- Checking for module 'uuid'
+[2.092s] --   Found uuid, version 2.37.2
+[2.148s] -- Found UUID: TRUE  
+[2.152s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.152s] -- Searching for dependencies of ignition-msgs5
+[2.166s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.171s] -- Checking for module 'tinyxml2'
+[2.186s] --   Found tinyxml2, version 9.0.0
+[2.240s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.243s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.244s] -- Searching for dependencies of ignition-common3
+[2.244s] -- Looking for dlfcn.h - found
+[2.246s] -- Looking for libdl - found
+[2.249s] -- Found DL: TRUE  
+[2.260s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[2.260s] -- Searching for <ignition-common3> component [graphics]
+[2.262s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.262s] -- Searching for dependencies of ignition-common3-graphics
+[2.262s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.264s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.264s] -- Searching for dependencies of ignition-fuel_tools4
+[2.286s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[2.294s] -- Checking for module 'jsoncpp'
+[2.310s] --   Found jsoncpp, version 1.9.5
+[2.367s] -- Found JSONCPP: TRUE  
+[2.376s] -- Checking for module 'libzip'
+[2.398s] --   Found libzip, version 1.7.3
+[2.451s] -- Found ZIP: TRUE  
+[2.452s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.452s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.452s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.454s] -- Gazebo version: 11.10
+[2.455s] -- Checking for module 'tbb'
+[2.475s] --   Found tbb, version 2021.5.0
+[2.528s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.576s] -- Configuring done
+[2.591s] -- Generating done
+[2.592s] -- Build files have been written to: /home/srushtei/ros2_ws/src/build/my_robot_arm

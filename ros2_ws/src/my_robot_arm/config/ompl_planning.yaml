@@ -1,0 +1,67 @@
+# ompl_planning.yaml
+
+# General settings for OMPL planning
+planner_configs:
+  # RRTConnect planner
+  RRTConnect:
+    type: geometric::RRTConnect
+    range: 0.0   # Set to 0.0 to use default value
+    goal_bias: 0.05  # Probability of selecting the goal as the sample
+    max_planning_time: 5.0  # Maximum planning time in seconds
+
+  # PRM (Probabilistic Roadmap) planner
+  PRM:
+    type: geometric::PRM
+    range: 0.0  # Set to 0.0 to use default value
+    max_planning_time: 5.0  # Maximum planning time in seconds
+
+  # RRTStar planner
+  RRTStar:
+    type: geometric::RRTStar
+    range: 0.0  # Set to 0.0 to use default value
+    goal_bias: 0.05  # Probability of selecting the goal as the sample
+    max_planning_time: 5.0  # Maximum planning time in seconds
+
+  # LazyPRM planner
+  LazyPRM:
+    type: geometric::LazyPRM
+    range: 0.0  # Set to 0.0 to use default value
+    max_planning_time: 5.0  # Maximum planning time in seconds
+
+  # EST planner
+  EST:
+    type: geometric::EST
+    range: 0.0  # Set to 0.0 to use default value
+    max_planning_time: 5.0  # Maximum planning time in seconds
+
+# Default planner configuration
+default_planner: RRTConnect
+
+# OMPL Parameters for planners
+ompl_planning_pipeline:
+  # Default planning pipeline settings
+  default_planner_config: RRTConnect
+  planner_configs:
+    RRTConnect:
+      type: geometric::RRTConnect
+      range: 0.0
+      goal_bias: 0.05
+      max_planning_time: 5.0
+    PRM:
+      type: geometric::PRM
+      range: 0.0
+      max_planning_time: 5.0
+    RRTStar:
+      type: geometric::RRTStar
+      range: 0.0
+      goal_bias: 0.05
+      max_planning_time: 5.0
+    LazyPRM:
+      type: geometric::LazyPRM
+      range: 0.0
+      max_planning_time: 5.0
+    EST:
+      type: geometric::EST
+      range: 0.0
+      max_planning_time: 5.0
+

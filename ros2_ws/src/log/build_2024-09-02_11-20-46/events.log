@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000161] (-) JobUnselected: {'identifier': 'my_robot_arm'}
+[0.000185] (-) JobUnselected: {'identifier': 'turtlebot_keyboard_control'}
+[0.000202] (-) JobUnselected: {'identifier': 'turtlebot_sine_trajectory'}
+[0.000219] (-) EventReactorShutdown: {}

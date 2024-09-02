@@ -1,0 +1,1 @@
+Invoking command in '/home/srushtei/ros2_ws/src/build/my_robot_arm': CMAKE_PREFIX_PATH=/home/srushtei/ros2_ws/install/turtlebot_sine_trajectory:/opt/ros/humble /usr/bin/cmake /home/srushtei/ros2_ws/src/my_robot_arm -DCMAKE_INSTALL_PREFIX=/home/srushtei/ros2_ws/src/install/my_robot_arm
